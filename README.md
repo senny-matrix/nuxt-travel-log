@@ -7,6 +7,7 @@ A full stack application built with Nuxt that allows users to keep track of all 
 Make sure to install dependencies:
 
 # pnpm
+
 ```bash
 pnpm install
 
@@ -28,7 +29,6 @@ Build the application for production:
 
 ```bash
 
-
 # pnpm
 pnpm build
 
@@ -37,7 +37,6 @@ pnpm build
 Locally preview production build:
 
 ```bash
-
 
 # pnpm
 pnpm preview
