@@ -5,16 +5,13 @@ import { AppThemeToggle } from "#components";
 <template>
   <div class="navbar bg-primary text-primary-content">
     <div class="navbar-start">
-      <NuxtLink to="btn btn-ghost text-xl">
+      <NuxtLink :to="{ name: 'index' }" class="btn btn-ghost text-xl">
         Travel Log
       </NuxtLink>
     </div>
     <div class="navbar-end">
       <AppThemeToggle />
-      <a class="btn btn-accent">
-        Sign In with GitHub
-        <Icon name="tabler:brand-github" size="24" />
-      </a>
+      <AuthButton />
     </div>
   </div>
 </template>
